@@ -20,7 +20,9 @@ global flag
 dd=0#not used
 flag=0
 
-
+def read_exp(emot):
+    print("You are currently feeling",emot)
+    
 def main():
     
 
