@@ -11,12 +11,13 @@ import pyttsx3
 engine = pyttsx3.init('sapi5')
 voices = engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
-
+#Function to speak
 def speak(audio):   
     engine.say(audio)  
     engine.runAndWait()
 
 global flag
+dd=0#not used
 flag=0
 
 
